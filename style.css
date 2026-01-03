@@ -1,5 +1,5 @@
 body {
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
     font-size: 17px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
@@ -12,12 +12,36 @@ body {
     width: 80%;
     display: block;
     margin: 0 auto;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 
 .path {
     border: 1px solid black;
     transform: rotate(90deg);
+    position: fixed;
+    top: 30px;
+    right: 98px;
+    /* bottom: 34px; */
+    left: -100px;
+}
+
+.ideapath {
+    border: 1px rgb(0, 0, 0) solid;
+    padding: 0px;
+}
+
+.stop {
+    width: 1%;
+    border: 1px solid #1acb5e;
+    padding: 9px 0px 7px 1px;
+    border-radius: 60%;
+    position: fixed;
+    top: -8px;
+    bottom: 60px;
+    right: 100px;
+    /* left: 45px; */
+    background-color: #1acb5e;
+    
 }
 
 .box {
@@ -38,10 +62,16 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border-radius: 2px;
+
 }
 
 h1, p{
     text-align: center;
+}
+
+.FullLogBtn {
+    padding-top: 70px;
 }
 
 .btn {
